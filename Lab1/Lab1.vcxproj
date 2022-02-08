@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Lab1.cpp" />
+    <ClCompile Include="FileSaver.cpp" />
+    <ClCompile Include="TextFromKeyboard.cpp" />
+    <ClCompile Include="StringOperations.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
