@@ -27,7 +27,6 @@ int main() {
     std::vector<std::string> fileB;
     fillOtherFiles(str, fileA, fileB);
 
-    std::cout << fileA.size() << " " << fileB.size() << "\n";
     std::cout << "Необроблений непарний файл:\n" << join(fileA, "\n") << "\n\n\n";
     std::cout << "Необроблений парний файл:\n" << join(fileB, "\n") << "\n\n\n";
 
