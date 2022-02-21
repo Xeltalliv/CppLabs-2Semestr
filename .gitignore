@@ -367,3 +367,7 @@ FodyWeavers.xsd
 Lab1/main.txt
 Lab1/even.txt
 Lab1/odd.txt
+
+# Lab 1-2
+Lab1-2/allMedicine.dat
+Lab1-2/openedMedicine.dat
