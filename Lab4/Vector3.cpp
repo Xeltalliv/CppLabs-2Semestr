@@ -32,13 +32,13 @@ bool Vector3::isPerpendicularTo(TVector &other) {
 
 double Vector3::normalizeAndDot(TVector &other) {
 	double len1 = getLength();
-	if (len1 == 0.0) len1 == 1.0; // Не ділити на 0
+	if (len1 == 0.0) len1 = 1.0; // Не ділити на 0
 	double x1n = x / len1;
 	double y1n = y / len1;
 	double z1n = z / len1;
 
 	double len2 = other.getLength();
-	if (len2 == 0.0) len2 == 1.0; // Не ділити на 0
+	if (len2 == 0.0) len2 = 1.0; // Не ділити на 0
 	double x2n = other.getElem(0) / len2;
 	double y2n = other.getElem(1) / len2;
 	double z2n = other.getElem(2) / len2;

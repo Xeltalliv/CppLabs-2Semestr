@@ -5,7 +5,7 @@
 int main() {
     SetConsoleOutputCP(CP_UTF8);
 
-    std::cout << "ЛАБОРАТОРНА РОБОТА 4\n\n";
+    std::cout << "ЛАБОРАТОРНА РОБОТА 5\n\n";
     std::cout << "Бінарні дерева\n";
 
     TNode* rootNode = nullptr;

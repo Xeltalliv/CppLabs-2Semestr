@@ -8,7 +8,7 @@ void TNode::insertToTree(TNode* insert) {
             right->insertToTree(insert);
         }
     } else if (insert->value < value) {
-        if (insert->value < value) {
+        if (left == nullptr) {
             left = insert;
         } else {
             left->insertToTree(insert);
